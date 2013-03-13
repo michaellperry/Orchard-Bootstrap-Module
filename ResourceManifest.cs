@@ -50,7 +50,7 @@ namespace TheMonarch.bootstrap {
             manifest.DefineStyle("Monarch.Bootstrap")
                 .SetUrl(ModuleStyle("bootstrap/less/bootstrap.css"));
             manifest.DefineStyle("Monarch.Bootstrap-responsive")
-                .SetUrl(ModuleStyle("bootstrap/less/responsive.css"))
+                .SetUrl(ModuleStyle("bootstrap/less/bootstrap-responsive.css"))
                 .SetDependencies("Monarch.Bootstrap");
             manifest.DefineStyle("Monarch.Custom")
                 .SetUrl(ModuleStyle("bootstrap/less/custom.css"))
@@ -58,19 +58,19 @@ namespace TheMonarch.bootstrap {
 
 
             // Scripts 
-            manifest.DefineScript("Monarch.Bootstrap").SetUrl(ModuleScript("bootstrap/bootstrap.js")).SetVersion("2.0.2").SetDependencies("jQuery");
-            manifest.DefineScript("Monarch.Bootstrap-alert").SetUrl(ModuleScript("bootstrap/plugins/bootstrap-alert.js")).SetVersion("2.0.2").SetDependencies("Monarch.Bootstrap");
-            manifest.DefineScript("Monarch.Bootstrap-button").SetUrl(ModuleScript("bootstrap/plugins/bootstrap-button.js")).SetVersion("2.0.2").SetDependencies("Monarch.Bootstrap");
-            manifest.DefineScript("Monarch.Bootstrap-carousel").SetUrl(ModuleScript("bootstrap/plugins/bootstrap-carousel.js")).SetVersion("2.0.2").SetDependencies("Monarch.Bootstrap");
-            manifest.DefineScript("Monarch.Bootstrap-collapse").SetUrl(ModuleScript("bootstrap/plugins/bootstrap-collapse.js")).SetVersion("2.0.2").SetDependencies("Monarch.Bootstrap");
-            manifest.DefineScript("Monarch.Bootstrap-dropdown").SetUrl(ModuleScript("bootstrap/plugins/bootstrap-dropdown.js")).SetVersion("2.0.2").SetDependencies("Monarch.Bootstrap");
-            manifest.DefineScript("Monarch.Bootstrap-modal").SetUrl(ModuleScript("bootstrap/plugins/bootstrap-modal.js")).SetVersion("2.0.2").SetDependencies("Monarch.Bootstrap");
-            manifest.DefineScript("Monarch.Bootstrap-popover").SetUrl(ModuleScript("bootstrap/plugins/bootstrap-popover.js")).SetVersion("2.0.2").SetDependencies("Monarch.Bootstrap");
-            manifest.DefineScript("Monarch.Bootstrap-scrollspy").SetUrl(ModuleScript("bootstrap/plugins/bootstrap-scrollspy.js")).SetVersion("2.0.2").SetDependencies("Monarch.Bootstrap");
-            manifest.DefineScript("Monarch.Bootstrap-tab").SetUrl(ModuleScript("bootstrap/plugins/bootstrap-tab.js")).SetVersion("2.0.2").SetDependencies("Monarch.Bootstrap");
-            manifest.DefineScript("Monarch.Bootstrap-tooltip").SetUrl(ModuleScript("bootstrap/plugins/bootstrap-tooltip.js")).SetVersion("2.0.2").SetDependencies("Monarch.Bootstrap");
-            manifest.DefineScript("Monarch.Bootstrap-transition").SetUrl(ModuleScript("bootstrap/plugins/bootstrap-transition.js")).SetVersion("2.0.2").SetDependencies("Monarch.Bootstrap");
-            manifest.DefineScript("Monarch.Bootstrap-typeahead").SetUrl(ModuleScript("bootstrap/plugins/bootstrap-typeahead.js")).SetVersion("2.0.2").SetDependencies("Monarch.Bootstrap");
+            manifest.DefineScript("Monarch.Bootstrap").SetUrl(ModuleScript("bootstrap/bootstrap.js")).SetVersion("2.3.1").SetDependencies("jQuery");
+            manifest.DefineScript("Monarch.Bootstrap-alert").SetUrl(ModuleScript("bootstrap/plugins/bootstrap-alert.js")).SetVersion("2.3.1").SetDependencies("Monarch.Bootstrap");
+            manifest.DefineScript("Monarch.Bootstrap-button").SetUrl(ModuleScript("bootstrap/plugins/bootstrap-button.js")).SetVersion("2.3.1").SetDependencies("Monarch.Bootstrap");
+            manifest.DefineScript("Monarch.Bootstrap-carousel").SetUrl(ModuleScript("bootstrap/plugins/bootstrap-carousel.js")).SetVersion("2.3.1").SetDependencies("Monarch.Bootstrap");
+            manifest.DefineScript("Monarch.Bootstrap-collapse").SetUrl(ModuleScript("bootstrap/plugins/bootstrap-collapse.js")).SetVersion("2.3.1").SetDependencies("Monarch.Bootstrap");
+            manifest.DefineScript("Monarch.Bootstrap-dropdown").SetUrl(ModuleScript("bootstrap/plugins/bootstrap-dropdown.js")).SetVersion("2.3.1").SetDependencies("Monarch.Bootstrap");
+            manifest.DefineScript("Monarch.Bootstrap-modal").SetUrl(ModuleScript("bootstrap/plugins/bootstrap-modal.js")).SetVersion("2.3.1").SetDependencies("Monarch.Bootstrap");
+            manifest.DefineScript("Monarch.Bootstrap-popover").SetUrl(ModuleScript("bootstrap/plugins/bootstrap-popover.js")).SetVersion("2.3.1").SetDependencies("Monarch.Bootstrap");
+            manifest.DefineScript("Monarch.Bootstrap-scrollspy").SetUrl(ModuleScript("bootstrap/plugins/bootstrap-scrollspy.js")).SetVersion("2.3.1").SetDependencies("Monarch.Bootstrap");
+            manifest.DefineScript("Monarch.Bootstrap-tab").SetUrl(ModuleScript("bootstrap/plugins/bootstrap-tab.js")).SetVersion("2.3.1").SetDependencies("Monarch.Bootstrap");
+            manifest.DefineScript("Monarch.Bootstrap-tooltip").SetUrl(ModuleScript("bootstrap/plugins/bootstrap-tooltip.js")).SetVersion("2.3.1").SetDependencies("Monarch.Bootstrap");
+            manifest.DefineScript("Monarch.Bootstrap-transition").SetUrl(ModuleScript("bootstrap/plugins/bootstrap-transition.js")).SetVersion("2.3.1").SetDependencies("Monarch.Bootstrap");
+            manifest.DefineScript("Monarch.Bootstrap-typeahead").SetUrl(ModuleScript("bootstrap/plugins/bootstrap-typeahead.js")).SetVersion("2.3.1").SetDependencies("Monarch.Bootstrap");
         }
     }
 }
