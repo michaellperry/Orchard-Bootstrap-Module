@@ -61,6 +61,7 @@
   <ItemGroup>
     <Content Include="Scripts\bootstrap\bootstrap.js" />
     <Content Include="Scripts\bootstrap\bootstrap.min.js" />
+    <Content Include="Scripts\bootstrap\plugins\bootstrap-affix.js" />
     <Content Include="Scripts\bootstrap\plugins\bootstrap-alert.js" />
     <Content Include="Scripts\bootstrap\plugins\bootstrap-button.js" />
     <Content Include="Scripts\bootstrap\plugins\bootstrap-carousel.js" />
@@ -75,17 +76,17 @@
     <Content Include="Scripts\bootstrap\plugins\bootstrap-typeahead.js" />
     <Content Include="Styles\bootstrap\img\glyphicons-halflings-white.png" />
     <Content Include="Styles\bootstrap\img\glyphicons-halflings.png" />
+    <Content Include="Styles\bootstrap\less\bootstrap-responsive.css" />
+    <Content Include="Styles\bootstrap\less\bootstrap-responsive.min.css" />
     <Content Include="Styles\bootstrap\less\bootstrap.css">
       <DependentUpon>bootstrap.less</DependentUpon>
     </Content>
+    <Content Include="Styles\bootstrap\less\bootstrap.min.css" />
     <Content Include="Styles\bootstrap\less\font-awesome.css">
       <DependentUpon>font-awesome.less</DependentUpon>
     </Content>
     <Content Include="Styles\bootstrap\less\font-awesome.min.css">
       <DependentUpon>font-awesome.less</DependentUpon>
-    </Content>
-    <Content Include="Styles\bootstrap\less\responsive.css">
-      <DependentUpon>responsive.less</DependentUpon>
     </Content>
     <Content Include="Styles\bootstrap\font-awesome\font\fontawesome-webfont.svg" />
     <Content Include="Web.config" />
@@ -111,10 +112,6 @@
       <Minify>False</Minify>
     </None>
     <None Include="Styles\bootstrap\less\alerts.less">
-      <Compile>False</Compile>
-      <Minify>False</Minify>
-    </None>
-    <None Include="Styles\bootstrap\less\badges.less">
       <Compile>False</Compile>
       <Minify>False</Minify>
     </None>
@@ -167,14 +164,12 @@
       <Compile>False</Compile>
       <Minify>False</Minify>
     </None>
-    <None Include="Styles\bootstrap\less\labels.less">
-      <Compile>False</Compile>
-      <Minify>False</Minify>
-    </None>
+    <None Include="Styles\bootstrap\less\labels-badges.less" />
     <None Include="Styles\bootstrap\less\layouts.less">
       <Compile>False</Compile>
       <Minify>False</Minify>
     </None>
+    <None Include="Styles\bootstrap\less\media.less" />
     <None Include="Styles\bootstrap\less\mixins.less">
       <Compile>False</Compile>
       <Minify>False</Minify>
@@ -211,6 +206,11 @@
       <Compile>False</Compile>
       <Minify>False</Minify>
     </None>
+    <None Include="Styles\bootstrap\less\responsive-1200px-min.less" />
+    <None Include="Styles\bootstrap\less\responsive-767px-max.less" />
+    <None Include="Styles\bootstrap\less\responsive-768px-979px.less" />
+    <None Include="Styles\bootstrap\less\responsive-navbar.less" />
+    <None Include="Styles\bootstrap\less\responsive-utilities.less" />
     <None Include="Styles\bootstrap\less\responsive.less">
       <Compile>True</Compile>
       <Minify>False</Minify>
